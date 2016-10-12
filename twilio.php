@@ -1,6 +1,6 @@
 <?php
 
-require_once 'C:xampp/htdocs/Twilio_API_Text_Message_Response/twilio-php-master/Twilio/autoload.php';
+require_once ("C:xampp/htdocs/Twilio_API_Text_Message_Response/twilio-php-master/Twilio/autoload.php");
 
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
@@ -17,13 +17,13 @@ $client = new Client($AccountSid, $AuthToken);
 		    // the number you'd like to send the message to
 		    "+17188203898",
 		    array(
-		        'from' => '+17188203898',
+		        'from' => '+13479527773',
 		        // the body of the text message you'd like to send
 		        'body' => "Hey!, Message Received!"
 		    )
 		);
 
 	//Display a confirmation message on the screen
-	echo "Sent message to $name"
+	//echo "Sent message to $name"
 
 ?>
